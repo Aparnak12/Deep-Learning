@@ -5,8 +5,5 @@ A Multi-Layer-Perceptron (MLP) finds optimal nonlinear basis functions to repres
 We can think of this image as a set of data points 
 { $(x^{(i)} = [x_{1}^{(i)}, x_{2}^{(i)}]^T, y^{(i)})$ } $^{M N}_ {i=1}$, where  $x^{(i)} = [x_{1}^{(i)}, x_{2}^{(i)}]^T$
 is the coordinates of the $i$’th pixel and $y^{(i)}$
-is the grayscale value for this pixel. This image is 256 × 256 and is provided to you as part of this homework under ‘moon.jpg.’ Our goal in
-this section is to learn an MLP that regresses over this image and gives us a continuous function
-$f : \mathbb{R}^{2} \rightarrow \mathbb{R}$ such that $f(x^{(i)}) \approx y^{(i)}$ Have in mind the three main code-blocks we talked about in the
-class: i.e., define model, define optimizer, regress over data iteratively. I recommend using Google
-Colab for this problem, and start from the code already provided to you.
+is the grayscale value for this pixel. This image is 256 × 256 and is provided under ‘moon.jpg.’ Our goal is to learn an MLP that regresses over this image and gives us a continuous function
+$f : \mathbb{R}^{2} \rightarrow \mathbb{R}$ such that $f(x^{(i)}) \approx y^{(i)}$ 
